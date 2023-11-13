@@ -1,0 +1,57 @@
+.Tab1_window {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 1045px;
+  margin: 0 auto;
+}
+.Tab2_window {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 705px;
+  margin: 0 auto;
+}
+.Tabs {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.passiveTab {
+  font-weight: 600;
+  color: #76767a;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.activeTab {
+  font-weight: 600;
+  color: #17228e;
+  border-bottom: 4px solid #17228e;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.Tab_contents {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1220px;
+  margin-top: 32px;
+}
+#separate_horizontal_services {
+  position: absolute;
+  width: 1168px;
+  height: 1px;
+  top: 36px;
+  background: #e5e5eb;
+}
+.Citizens,
+.Organizations {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}

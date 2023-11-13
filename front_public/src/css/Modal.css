@@ -1,0 +1,87 @@
+.modal_active {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 3;
+  cursor: default;
+}
+#modalBackground {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #333333;
+  opacity: 0.9;
+}
+.modalContext {
+  width: 616px;
+  height: 446px;
+  background: #ffffff;
+  border-radius: 12px;
+  z-index: 4;
+}
+.modalContextOrg {
+  width: 616px;
+  height: 87vh;
+  background: #ffffff;
+  border-radius: 12px;
+  z-index: 4;
+  overflow-y: scroll;
+}
+.modalContextOrg::-webkit-scrollbar {
+  width: 12px;
+}
+.modalContextOrg::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #a7a8ab;
+}
+#ellipse_icon {
+  position: relative;
+  width: 128px;
+  height: 64px;
+  left: calc(50% - 64px);
+  top: 0px;
+  fill: #edefff;
+}
+#icon_modal {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  left: calc(50% - 128px - 28px);
+  top: 14px;
+}
+#cross_icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: calc(100% - 128px - 53px - 56px);
+  top: -11px;
+  cursor: pointer;
+  fill: #17228e;
+}
+#titleModal {
+  position: relative;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin: 20px 40px 0px 40px;
+}
+#titleModal p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+#textModal p {
+  position: relative;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+  margin: 20px 40px 0px 40px;
+}

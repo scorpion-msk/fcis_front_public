@@ -1,0 +1,12 @@
+.look_button {
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 2px;
+  border-style: solid;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px 16px 12px 20px;
+  background-color: transparent;
+}

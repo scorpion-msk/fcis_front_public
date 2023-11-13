@@ -1,0 +1,39 @@
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader1,
+.loader2,
+.loader3,
+.loader4 {
+  position: absolute;
+  box-sizing: border-box;
+  height: inherit;
+  width: inherit;
+  border-radius: 100%;
+  animation: spinner 1.2s infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+.loader1 {
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #3744c4;
+}
+.loader2 {
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #a3a9e2;
+  animation-delay: 0.15s;
+}
+.loader3 {
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #c5caff;
+  animation-delay: 0.3s;
+}
+.loader4 {
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #edefff;
+  animation-delay: 0.45s;
+}

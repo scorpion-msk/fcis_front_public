@@ -1,0 +1,372 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  left: 0px;
+  gap: 32px;
+  width: 1168px;
+  height: 1157px;
+}
+.card01 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1168px;
+  height: 212px;
+  align-items: center;
+  justify-content: center;
+}
+.card01_1 {
+  width: 1168px;
+  height: 212px;
+  border-radius: 12px;
+  background: linear-gradient(130deg, #6d7afa 0%, #3744c4 56.77%);
+}
+.no_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card02 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1168px;
+  height: auto;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.card03,
+.card04 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1168px;
+  height: 284px;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.card02_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 24px 40px;
+  border-radius: 12px;
+  border: 1px solid #e5e5eb;
+}
+.card02_1 span {
+  display: block;
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #17228e;
+}
+.sportsmen svg,
+.coaches svg,
+.referees svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 12px;
+  background: #c5caff;
+}
+.card01 h3 {
+  position: absolute;
+  top: 24px;
+  left: 108px;
+  width: 654px;
+  height: 64px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.card01_1 svg {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 32px;
+  left: 40px;
+  padding: 12px;
+  border-radius: 100%;
+  background: #c5caff;
+}
+.card01 img {
+  position: absolute;
+  top: 16px;
+  left: 825px;
+}
+.statistics-70 {
+  position: absolute;
+  display: flex;
+  top: 112px;
+  left: 40px;
+  width: 432px;
+  height: 76px;
+  gap: 66px;
+}
+.statistics-70 #count1 {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+  height: 56px;
+  gap: 4px;
+}
+.statistics-70 #count2 {
+  display: flex;
+  flex-direction: column;
+  width: 181px;
+  height: 76px;
+  gap: 4px;
+}
+#count1 span,
+#count2 span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#count1 p,
+#count2 p {
+  color: #c5caff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card03_1,
+.card04_1 {
+  display: flex;
+  flex-direction: row;
+  width: 1168px;
+  height: 284px;
+  gap: 32px;
+}
+.card03_1_1 {
+  width: 568px;
+  height: 284px;
+  border-radius: 12px;
+  background: linear-gradient(105deg, #6d7afa -0.84%, #3744c4 55%);
+}
+.card04_1_1 {
+  width: 568px;
+  height: 284px;
+  border-radius: 12px;
+  border: 1px solid #e5e5eb;
+  background: #fff;
+}
+.card03_1_1 img {
+  position: absolute;
+  top: 55px;
+  left: 200px;
+  width: 338px;
+  height: 198px;
+}
+#card03_title {
+  display: flex;
+  position: absolute;
+  top: 24px;
+  left: 40px;
+  width: 473px;
+  gap: 20px;
+  align-items: center;
+}
+#card03_title svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 12px;
+  background: #c5caff;
+}
+#card03_title h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+#card03_facilities {
+  display: flex;
+  position: absolute;
+  top: 72px;
+  flex-direction: column;
+  width: 174px;
+  height: 92px;
+  gap: 4px;
+}
+#card03_facilities span,
+#card03_objects span {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+#card03_facilities h5,
+#card03_objects h5 {
+  color: #c5caff;
+  font-size: 14px;
+  line-height: 20px;
+}
+#card03_facilities_link,
+#card03_objects_link {
+  display: flex;
+  align-items: center;
+  fill: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  gap: 8px;
+  margin-top: 4px;
+}
+#card03_facilities_link svg {
+  width: 24px;
+  height: 24px;
+  background: none;
+  padding: 0px;
+}
+#card03_facilities_link:hover,
+#card03_objects_link:hover {
+  opacity: 0.5;
+}
+#card03_objects {
+  display: flex;
+  position: absolute;
+  top: 72px;
+  left: 251px;
+  flex-direction: column;
+  width: 179px;
+  height: 132px;
+  gap: 4px;
+}
+#card03_button1 {
+  display: flex;
+  position: absolute;
+  top: 188px;
+  left: 0;
+}
+.card03_1_2 {
+  gap: 48px;
+}
+.card03_1_2,
+.card04_1_2 {
+  display: flex;
+  flex-direction: column;
+  width: 568px;
+  height: 284px;
+  border-radius: 12px;
+  border: 1px solid #e5e5eb;
+  background: #fff;
+}
+#card03_osf,
+#card03_rsf,
+#card04_ekp,
+#card04_osp {
+  display: flex;
+  position: relative;
+  top: 24px;
+  left: 40px;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+#card03_osf svg,
+#card03_rsf svg,
+#card04_ekp svg,
+#card04_osp svg,
+#card05_vrvs svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 12px;
+  background: #c5caff;
+}
+#card03_osf h4,
+#card03_rsf h4,
+#card04_ekp h4,
+#card04_osp h4,
+#card05_vrvs h4 {
+  display: block;
+  width: 338px;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+#card03_osf span,
+#card03_rsf span,
+#card04_ekp span,
+#card04_osp span {
+  color: #17228e;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+#card03_button2 {
+  position: relative;
+  left: 40px;
+}
+#card04_osp_adapt p {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  color: #17228e;
+  font-size: 14px;
+}
+#card04_button1 {
+  position: relative;
+  left: 40px;
+  top: 154px;
+}
+#card04_button2 {
+  position: relative;
+  left: 40px;
+  top: 105px;
+}
+.card05 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1168px;
+  height: 96px;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+#card05_vrvs {
+  display: flex;
+  position: relative;
+  left: 40px;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card05_1 {
+  display: flex;
+  flex-direction: row;
+  width: 1168px;
+  height: 96px;
+  gap: 32px;
+}
+.card05_1_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1168px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid #e5e5eb;
+  background: #fff;
+}
+#card05_button1 {
+  position: relative;
+  right: 24px;
+}
