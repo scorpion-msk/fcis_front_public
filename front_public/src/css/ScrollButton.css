@@ -1,0 +1,41 @@
+/* Right bottom corner scroll button styles to get back to top of page */
+.scroll_button_active {
+  display: flex;
+  position: sticky;
+  top: 89vh;
+  left: 89vw;
+  width: 64px;
+  height: 64px;
+  z-index: 3;
+}
+.scroll_button_active svg {
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+  border-radius: 50px;
+  background: #fff;
+  fill: #3744c4;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02),
+    0px 4px 16px 0px rgba(0, 0, 0, 0.11);
+  transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.scroll_button_passive {
+  display: flex;
+  position: sticky;
+  top: 89vh;
+  left: 89vw;
+  width: 64px;
+  height: 64px;
+  z-index: 3;
+}
+.scroll_button_passive svg {
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+  border-radius: 50px;
+  background: rgb(229 229 235);
+  fill: rgb(167 168 171);
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

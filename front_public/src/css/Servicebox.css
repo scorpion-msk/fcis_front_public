@@ -1,0 +1,105 @@
+.serviceBox {
+  position: relative;
+  width: 368px;
+  height: 304px;
+  margin-top: 32px;
+  margin-right: 32px;
+  border: 1px solid #e5e5eb;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+}
+.serviceBox:hover {
+  background: linear-gradient(105deg, #6d7afa -1%, #3744c4 55%);
+  color: #ffffff;
+}
+.serviceBox:hover #boxText,
+.serviceBox:hover #boxText p {
+  color: #c5caff;
+}
+.serviceBox:hover #boxTitle,
+.serviceBox:hover #boxTitle p {
+  color: #ffffff;
+}
+.serviceBox:hover #boxLinktext {
+  color: #ffffff;
+}
+.serviceBox:hover #vectorBox {
+  fill: #ffffff;
+}
+
+#boxIconback {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 32px;
+  left: 32px;
+  background: #edefff;
+  border-radius: 100%;
+}
+#boxIcon {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 24px;
+  height: 24px;
+}
+.epguLogo {
+  position: absolute;
+  left: 72px;
+  top: 22px;
+  width: 32px;
+  height: 32px;
+}
+.boxDescription {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 116px;
+  left: 32px;
+  gap: 12px;
+}
+#boxTitle,
+#boxTitle p {
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+#boxText {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+#boxText p {
+  color: #333333;
+}
+#boxText div {
+  display: flex;
+  gap: 8px;
+}
+#boxText #icon_Information {
+  width: 24px;
+  height: 24px;
+}
+.boxLink {
+  display: flex;
+  position: absolute;
+  top: 248px;
+  margin-left: 32px;
+  gap: 8px;
+}
+#vectorBox {
+  width: 24px;
+  height: 24px;
+  fill: #17228e;
+}
+.boxLink:hover #vectorBox {
+  fill: #ff7614;
+}
+#boxLinktext {
+  font-size: 16px;
+  color: #17228e;
+}

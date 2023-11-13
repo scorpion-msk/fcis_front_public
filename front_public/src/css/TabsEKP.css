@@ -1,0 +1,49 @@
+.TabsEKP_window {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1168px;
+  height: fit-content;
+}
+.TabsEKP {
+  display: flex;
+  position: relative;
+  left: 0px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.passiveTabEKP {
+  font-weight: 600;
+  color: #76767a;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.activeTabEKP {
+  font-weight: 600;
+  color: #17228e;
+  border-bottom: 4px solid #17228e;
+  margin-right: 32px;
+  cursor: pointer;
+}
+#separate_horizontal_ekp {
+  position: absolute;
+  width: 1168px;
+  height: 1px;
+  top: 36px;
+  background: #e5e5eb;
+}
+.TabEKP_contents {
+  display: flex;
+  position: relative;
+  left: 0px;
+  width: 1168px;
+  height: fit-content;
+  margin-top: 36px;
+  color: #17228e;
+}
+.calendar__EKPWidget {
+  display: flex;
+  width: 1168px;
+  height: fit-content;
+}

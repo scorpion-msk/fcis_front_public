@@ -1,0 +1,212 @@
+.calendar {
+  display: flex;
+  position: relative;
+  top: 40px;
+  width: 400px;
+  height: 475px;
+  justify-content: center;
+  align-items: center;
+}
+.EKPwidget {
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 80px;
+  width: 688px;
+  min-height: 432px;
+  justify-content: center;
+  margin-top: 112px;
+  margin-bottom: 120px;
+}
+.EKPwidget_no_events {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 80px;
+  width: 350px;
+  height: fit-content;
+  align-items: center;
+}
+.EKPwidget_no_events svg {
+  width: 100px;
+  height: 100px;
+}
+.EKPwidget_no_events span {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+.EKPwidget_loader {
+  position: absolute;
+  top: 105px;
+  left: 301px;
+}
+.EKPevents {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 688px;
+  height: fit-content;
+  gap: 12px;
+}
+#EKPevent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  padding: 16px 20px;
+  border-radius: 4px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  height: fit-content;
+  background-color: #fff;
+}
+#EKPevent_date {
+  position: relative;
+  width: fit-content;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+#EKPevent_sport_type,
+#EKPevent_location {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  align-items: center;
+}
+#EKPevent_sport_type svg,
+#EKPevent_location svg {
+  position: relative;
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+  fill: #3744c4;
+}
+#EKPevent_sport_type span,
+#EKPevent_location span {
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+#EKPevent_name span {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+.calendar_01 {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+#month_select {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  top: 0px;
+  width: 253px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+#month_select svg {
+  padding: 4px;
+  border-radius: 100%;
+  background: #edefff;
+  cursor: pointer;
+}
+#month_select svg:hover {
+  background: #c5caff;
+}
+#month_select p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+#days_of_week {
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 40px;
+  top: 72px;
+  gap: 20px;
+}
+#days_of_week span {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+#active {
+  display: flex;
+  color: black;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#active:hover {
+  background-color: rgb(197 202 255);
+}
+#active_click {
+  display: flex;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #3744c4;
+}
+#passive {
+  display: flex;
+  color: #a7a8ab;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.days_of_month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 400px;
+  height: fit-content;
+  top: 112px;
+  left: 0px;
+  column-gap: 20px;
+}
+#day_select {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 48px;
+  gap: 4px;
+  margin-top: 12px;
+  align-items: center;
+}
+.Calendar_loader {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.2);
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,47 @@
+.linkModalList {
+  margin: 20px 40px 0px 40px;
+  font-size: 14px;
+}
+#linkModalListItem {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+#linkModalListItem svg {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background-color: rgb(197 202 255);
+  border-radius: 100%;
+  fill: #3744c4;
+}
+#linkModalListItem span {
+  color: #333333;
+}
+#linkModalListItem_region {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#linkModalListItem_link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#linkModalListItem_link span {
+  color: #17228e;
+}
+#linkModalListItem_link:hover span {
+  color: #ff7614;
+}
+#linkModalListItem_link svg {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  fill: #17228e;
+  background-color: #fff;
+}
+#linkModalListItem_link:hover svg {
+  fill: #ff7614;
+}
